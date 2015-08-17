@@ -1,0 +1,249 @@
+[
+  {
+    "id": 1,
+    "name": "Bureau",
+    "sectionID": 1,
+    "icon": "room_pioro",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 1
+  },
+  {
+    "id": 2,
+    "name": "Cuisine",
+    "sectionID": 1,
+    "icon": "room_kawa",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 2
+  },
+  {
+    "id": 3,
+    "name": "Salle à Manger",
+    "sectionID": 1,
+    "icon": "room_jadalnia",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 3
+  },
+  {
+    "id": 4,
+    "name": "Salon",
+    "sectionID": 1,
+    "icon": "room_sofa",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 4
+  },
+  {
+    "id": 5,
+    "name": "Entrée",
+    "sectionID": 1,
+    "icon": "room_kapelusz",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 5
+  },
+  {
+    "id": 6,
+    "name": "Chb Parents",
+    "sectionID": 1,
+    "icon": "",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 6
+  },
+  {
+    "id": 7,
+    "name": "SdB RdC",
+    "sectionID": 1,
+    "icon": "room_wanna",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 7
+  },
+  {
+    "id": 8,
+    "name": "WC RdC",
+    "sectionID": 1,
+    "icon": "room_toilet",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 8
+  },
+  {
+    "id": 9,
+    "name": "Chb Benjamin",
+    "sectionID": 2,
+    "icon": "",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 9
+  },
+  {
+    "id": 10,
+    "name": "Chb Adrien",
+    "sectionID": 2,
+    "icon": "",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 10
+  },
+  {
+    "id": 11,
+    "name": "Chb Amélie",
+    "sectionID": 2,
+    "icon": "",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 11
+  },
+  {
+    "id": 12,
+    "name": "WC Étg 1",
+    "sectionID": 2,
+    "icon": "room_toilet",
+    "defaultSensors": {
+      "temperature": 28,
+      "humidity": 0,
+      "light": 29
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 12
+  },
+  {
+    "id": 13,
+    "name": "SdB Étg 1",
+    "sectionID": 2,
+    "icon": "room_prysznic",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 13
+  },
+  {
+    "id": 14,
+    "name": "Débarras",
+    "sectionID": 2,
+    "icon": "room_konik",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 14
+  },
+  {
+    "id": 15,
+    "name": "Cellier",
+    "sectionID": 1,
+    "icon": "room_klocki",
+    "defaultSensors": {
+      "temperature": 53,
+      "humidity": 0,
+      "light": 54
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 15
+  },
+  {
+    "id": 16,
+    "name": "Garage",
+    "sectionID": 1,
+    "icon": "room_garage",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 16
+  },
+  {
+    "id": 17,
+    "name": "Terrasse SaM",
+    "sectionID": 3,
+    "icon": "room_boy",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 17
+  },
+  {
+    "id": 18,
+    "name": "Terrasse Salon",
+    "sectionID": 3,
+    "icon": "room_boy",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 18
+  },
+  {
+    "id": 19,
+    "name": "Couloir Étg 1",
+    "sectionID": 2,
+    "icon": "User1001",
+    "defaultSensors": {
+      "temperature": 0,
+      "humidity": 0,
+      "light": 0
+    },
+    "defaultThermostat": 0,
+    "sortOrder": 19
+  }
+]

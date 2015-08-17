@@ -1,0 +1,30 @@
+<div class="container">
+     
+	<!------------------- DEVICES ------------------->  
+	<input ng-model="query.$" ng-init="" disabled></input>
+	<div class="page-header">
+		<h1>Ma domotique contient {{devices.length}} modules
+		</h1>
+	</div>
+	<div masonry>
+	
+		<div id="#portfolio" ng-repeat="device in devices | orderBy:'piece' | filter: query">
+			<div class="bloc {{device.piece}} masonry-brick">
+				<h3>
+					<small>
+						<a ng-href="" ng-click="assign(device.piece)">{{device.piece}}</a>
+					</small>
+				</h3>
+				<img class="imgDevice" ng-src="{{testType(device.type,device.level)}}">
+			</div>
+			
+<!--			<div class="blocDetailsDevice" ng-show="details[$index]">
+				<a ng-href="" ng-click="afficheDetails($index)"><img class="imgDeviceDetails" ng-src="{{testType(device.type,device.level)}}" alt="{{device.type}}"></a>
+				<p class="alignement">{{device.item}}</p>
+			</div>-->
+			
+	 	</div> <!-- /.ng-repeat -->
+	</div><!-- /.masonry -->
+	<!------------------- FIN DEVICES ------------------->
+
+</div><!-- /.container -->      

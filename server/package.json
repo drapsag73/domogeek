@@ -1,0 +1,24 @@
+{
+  "name": "DomogeekServer",
+	"version": "0.0.1",
+	"description": "Server en RestFull pour l'appli domogeek",
+	"author": "Gaspard BONNETTO gbonnnetto@msn.com",
+  "main": "server.js",
+	"contributors": [{
+		
+	}],
+	"keywords": [
+		"domotique",
+		"geek",
+		"restfull"
+	],
+  "dependencies": {
+    "express": "~4.2.0",
+		"socket.io": "~1.3.6",
+    "cors": "~2.7.1",
+		"http-auth": "~2.2.8",
+		"body-parser": "~1.13.3",
+		"moment": "~2.10.6",
+		"xmlhttprequest": "~1.7.0"
+  }
+}
