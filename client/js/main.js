@@ -1,15 +1,15 @@
 jQuery(function($){
   var portfolio = $('#portfolio');
+  
   portfolio.masonry({
     isAnimated: true,
-    itemSelector: '.bloc'
+    itemSelector: '.bloc:not(.hidden)'
   });
 
-	$('h3 a').on('click', function(e){
-    var cls = $(this).attr('ng-href').replace('#',''); 
-    portfolio.find('.bloc').removeClass('hidden'); 
-		portfolio.find('.bloc:not(.'+cls+')').addClass('hidden');
-		
+ 
+	$('a.thumb').on('click', function(e){
+ //   var elem = $(this);
+    alert("a.thumb")
     e.preventDefault();
   });
 });

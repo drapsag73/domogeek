@@ -29,5 +29,5 @@ app.config(['$locationProvider','$routeProvider',
 ]);
 
 app.constant('appConfig', {
-    accessIP: 'http://192.168.0.16:1680'
+    accessIP: 'http://localhost:1680'
 });

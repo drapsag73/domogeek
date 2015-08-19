@@ -7,9 +7,17 @@ body{
 	width: 980px; 
 }
 
+.bloc{
+	float: left;
+	margin: 5px;
+	/*border: solid;*/
+	height: 200px;
+	width: 114px;
+}
+
 .masonry-brick{
-	width: 110px;
-	height: 160px;
+	width: 114px;
+	height: 200px;
 	margin: 2px;
 }
 
@@ -19,6 +27,7 @@ body{
   height: auto;
   width: auto;
   text-align: center;
+  margin-top: 1px;
   /*border-style: solid;*/
   border-bottom: 1px;
   border-color: #000;
@@ -51,7 +60,7 @@ a, a:hover{
 	width: 315px;
 	height: 284px;
 	border: 1px solid black;
-	margin: 2px
+	margin: 2px;
 	padding: 10px; /* Marge intérieure */
 	background-color: #393939;
 

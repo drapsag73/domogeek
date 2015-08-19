@@ -30,9 +30,9 @@ global.fs = fs;
 
 // Récupère les différentes pièces et modules
 RecupDonnees.listeModules(function(configJSON){
-  stringData = JSON.stringify(configJSON, null, 2);
+//  stringData = JSON.stringify(configJSON, null, 2);
   global.config = configJSON;
-  global.config = global.config.devices.sort(sortByPieceAndPosition);
+//  global.config = global.config.devices.sort(sortByPieceAndPosition);
 });
 
 var port = process.env.PORT || 1680;        // set our port
@@ -61,29 +61,3 @@ io.sockets.on('connection', function(socket){
 	console.log(ipadresse + " s'est connecté le " + jour + " à " + heure);
 });
 
-function sortByPieceAndPosition(a,b) {
- 	//return 1, if you want b to come first 	
-  //return -1, if you want a to come first 	
-  //return 0, if both objects are the same 
-  if(a.piece < b.piece) 	{
-    return -1; 	
-  } 	
-  else if(a.piece > b.piece) 	{
-    return 1; 	
-  }
-  else if(a.type < b.type) 	{
-    return -1; 	
-  } 	
-  else if(a.type > b.type) 	{
-    return 1; 	
-  } 	
- 	else if(a.position < b.position) 	{
-    return -1;
- 	} 	
-  else if(a.position > b.position) 	{
-    return 1; 	
-  }
- 	else 	{
-    return 0; 	
-  } 
-}

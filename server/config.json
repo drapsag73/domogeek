@@ -1,295 +1,292 @@
-{
-  "home": "Frontonas",
-  "devices": [
-    {
-      "node": 5,
-      "nodeBlind": 0,
-      "item": "Bur-Lumière",
-      "piece": "Bureau",
-      "etage": "0,",
-      "type": "binary_light",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 17,
-      "nodeBlind": 0,
-      "item": "Cel-Porte",
-      "piece": "Cellier",
-      "etage": "0,",
-      "type": "door_sensor",
-      "constructeur": "",
-      "level": 100
-    },
-    {
-      "node": 19,
-      "nodeBlind": 0,
-      "item": "WC-E1-Lumière",
-      "piece": "WC-Étg-1",
-      "etage": "1,",
-      "type": "dimmable_light",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 20,
-      "nodeBlind": 0,
-      "item": "Détecteur fumée",
-      "piece": "Entrée",
-      "etage": "0,",
-      "type": "smoke_sensor",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 26,
-      "nodeBlind": 0,
-      "item": "Prise",
-      "piece": "Bureau",
-      "etage": "0,",
-      "type": "prise",
-      "constructeur": "",
-      "level": 100
-    },
-    {
-      "node": 27,
-      "nodeBlind": 0,
-      "item": "WC-E1-Détection",
-      "piece": "WC-Étg-1",
-      "etage": "1,",
-      "type": "motion_sensor",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 28,
-      "nodeBlind": 0,
-      "item": "WC-E1-Température",
-      "piece": "WC-Étg-1",
-      "etage": "1,",
-      "type": "temperature_sensor",
-      "constructeur": "",
-      "level": "23.90"
-    },
-    {
-      "node": 29,
-      "nodeBlind": 0,
-      "item": "WC-E1-Luminosité",
-      "piece": "WC-Étg-1",
-      "etage": "1,",
-      "type": "light_sensor",
-      "constructeur": "",
-      "level": "16"
-    },
-    {
-      "node": 30,
-      "nodeBlind": 0,
-      "item": "Porte Garage",
-      "piece": "Garage",
-      "etage": "0,",
-      "type": "door_sensor",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 44,
-      "nodeBlind": 0,
-      "item": "Sdb-E1-Porte",
-      "piece": "SdB-Étg-1",
-      "etage": "1,",
-      "type": "binary_light",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 46,
-      "nodeBlind": 0,
-      "item": "SdB-E1-Lavabo",
-      "piece": "SdB-Étg-1",
-      "etage": "1,",
-      "type": "binary_light",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 47,
-      "nodeBlind": 0,
-      "item": "Cel-Lumière",
-      "piece": "Cellier",
-      "etage": "0,",
-      "type": "binary_light",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 51,
-      "nodeBlind": 0,
-      "item": "Ch1-Lumière",
-      "piece": "Chb-Parents",
-      "etage": "0,",
-      "type": "dimmable_light",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 52,
-      "nodeBlind": 0,
-      "item": "Cel-Détection",
-      "piece": "Cellier",
-      "etage": "0,",
-      "type": "motion_sensor",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 53,
-      "nodeBlind": 0,
-      "item": "Cel-Température",
-      "piece": "Cellier",
-      "etage": "0,",
-      "type": "temperature_sensor",
-      "constructeur": "",
-      "level": "21.80"
-    },
-    {
-      "node": 54,
-      "nodeBlind": 0,
-      "item": "Cel-Luminosité",
-      "piece": "Cellier",
-      "etage": "0,",
-      "type": "light_sensor",
-      "constructeur": "",
-      "level": "835"
-    },
-    {
-      "node": 55,
-      "nodeBlind": 0,
-      "item": "Ent-Lumière",
-      "piece": "Entrée",
-      "etage": "0,",
-      "type": "binary_light",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 57,
-      "nodeBlind": 0,
-      "item": "Cou-E1-Lumière",
-      "piece": "Couloir-Étg-1",
-      "etage": "1,",
-      "type": "binary_light",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 58,
-      "nodeBlind": 0,
-      "item": "Cui-Lumière",
-      "piece": "Cuisine",
-      "etage": "0,",
-      "type": "binary_light",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": 60,
-      "nodeBlind": 0,
-      "item": "Cui-Tableau",
-      "piece": "Cuisine",
-      "etage": "0,",
-      "type": "binary_light",
-      "constructeur": "",
-      "level": "0"
-    },
-    {
-      "node": "Fenêtre0",
-      "nodeBlind": 4,
-      "item": "Sal-Porte Volet",
-      "piece": "Salon",
-      "etage": "0,",
-      "type": "fenetre",
-      "constructeur": "",
-      "level": "fermee-ferme"
-    },
-    {
-      "node": "Fenêtre2",
-      "nodeBlind": 6,
-      "item": "Bur-Porte Volet",
-      "piece": "Bureau",
-      "etage": "0,",
-      "type": "fenetre",
-      "constructeur": "",
-      "level": "fermee-ouvert"
-    },
-    {
-      "node": "Fenêtre3",
-      "nodeBlind": 7,
-      "item": "Bur-Fenêtre Volet ",
-      "piece": "Bureau",
-      "etage": "0,",
-      "type": "fenetre",
-      "constructeur": "",
-      "level": "fermee-ouvert"
-    },
-    {
-      "node": "Fenêtre4",
-      "nodeBlind": 8,
-      "item": "Sal-Fenêtre Volet",
-      "piece": "Salon",
-      "etage": "0,",
-      "type": "fenetre",
-      "constructeur": "",
-      "level": "fermee-ouvert"
-    },
-    {
-      "node": "Fenêtre34",
-      "nodeBlind": 0,
-      "item": "Ch2-Fenêtre Poignée",
-      "piece": "Chb-Benjamin",
-      "etage": "1,",
-      "type": "fenetre",
-      "constructeur": "",
-      "level": "fermee-sans"
-    },
-    {
-      "node": "Fenêtre5",
-      "nodeBlind": 13,
-      "item": "SaM-PorteEst Volet",
-      "piece": "Salle-à-Manger",
-      "etage": "0,",
-      "type": "fenetre",
-      "constructeur": "",
-      "level": "fermee-ferme"
-    },
-    {
-      "node": "Fenêtre6",
-      "nodeBlind": 14,
-      "item": "Cui-Fenêtre Volet",
-      "piece": "Cuisine",
-      "etage": "0,",
-      "type": "fenetre",
-      "constructeur": "",
-      "level": "fermee-ouvert"
-    },
-    {
-      "node": "Fenêtre16",
-      "nodeBlind": 31,
-      "item": "SaM-PorteSud Volet",
-      "piece": "Salle-à-Manger",
-      "etage": "0,",
-      "type": "fenetre",
-      "constructeur": "",
-      "level": "ouverte-ouvert"
-    },
-    {
-      "node": "Fenêtre22",
-      "nodeBlind": 0,
-      "item": "Ch1-Fenêtre Poignée",
-      "piece": "Chb-Parents",
-      "etage": "0,",
-      "type": "fenetre",
-      "constructeur": "",
-      "level": "fermee-sans"
-    }
-  ]
-}
+[
+  {
+    "node": 5,
+    "nodeBlind": 0,
+    "item": "Bur-Lumière",
+    "piece": "Bureau",
+    "etage": "0,",
+    "type": "binary_light",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": "Fenêtre3",
+    "nodeBlind": 7,
+    "item": "Bur-Fenêtre Volet ",
+    "piece": "Bureau",
+    "etage": "0,",
+    "type": "fenetre",
+    "constructeur": "",
+    "level": "fermee-ferme"
+  },
+  {
+    "node": "Fenêtre2",
+    "nodeBlind": 6,
+    "item": "Bur-Porte Volet",
+    "piece": "Bureau",
+    "etage": "0,",
+    "type": "fenetre",
+    "constructeur": "",
+    "level": "fermee-ferme"
+  },
+  {
+    "node": 26,
+    "nodeBlind": 0,
+    "item": "Prise",
+    "piece": "Bureau",
+    "etage": "0,",
+    "type": "prise",
+    "constructeur": "",
+    "level": 100
+  },
+  {
+    "node": 47,
+    "nodeBlind": 0,
+    "item": "Cel-Lumière",
+    "piece": "Cellier",
+    "etage": "0,",
+    "type": "binary_light",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": 17,
+    "nodeBlind": 0,
+    "item": "Cel-Porte",
+    "piece": "Cellier",
+    "etage": "0,",
+    "type": "door_sensor",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": 54,
+    "nodeBlind": 0,
+    "item": "Cel-Luminosité",
+    "piece": "Cellier",
+    "etage": "0,",
+    "type": "light_sensor",
+    "constructeur": "",
+    "level": "190"
+  },
+  {
+    "node": 52,
+    "nodeBlind": 0,
+    "item": "Cel-Détection",
+    "piece": "Cellier",
+    "etage": "0,",
+    "type": "motion_sensor",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": 53,
+    "nodeBlind": 0,
+    "item": "Cel-Température",
+    "piece": "Cellier",
+    "etage": "0,",
+    "type": "temperature_sensor",
+    "constructeur": "",
+    "level": "21.00"
+  },
+  {
+    "node": "Fenêtre34",
+    "nodeBlind": 0,
+    "item": "Ch2-Fenêtre Poignée",
+    "piece": "Chb-Benjamin",
+    "etage": "1,",
+    "type": "fenetre",
+    "constructeur": "",
+    "level": "fermee-sans"
+  },
+  {
+    "node": 51,
+    "nodeBlind": 0,
+    "item": "Ch1-Lumière",
+    "piece": "Chb-Parents",
+    "etage": "0,",
+    "type": "dimmable_light",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": "Fenêtre22",
+    "nodeBlind": 0,
+    "item": "Ch1-Fenêtre Poignée",
+    "piece": "Chb-Parents",
+    "etage": "0,",
+    "type": "fenetre",
+    "constructeur": "",
+    "level": "fermee-sans"
+  },
+  {
+    "node": 57,
+    "nodeBlind": 0,
+    "item": "Cou-E1-Lumière",
+    "piece": "Couloir-Étg-1",
+    "etage": "1,",
+    "type": "binary_light",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": 58,
+    "nodeBlind": 0,
+    "item": "Cui-Lumière",
+    "piece": "Cuisine",
+    "etage": "0,",
+    "type": "binary_light",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": 60,
+    "nodeBlind": 0,
+    "item": "Cui-Tableau",
+    "piece": "Cuisine",
+    "etage": "0,",
+    "type": "binary_light",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": "Fenêtre6",
+    "nodeBlind": 14,
+    "item": "Cui-Fenêtre Volet",
+    "piece": "Cuisine",
+    "etage": "0,",
+    "type": "fenetre",
+    "constructeur": "",
+    "level": "fermee-ferme"
+  },
+  {
+    "node": 55,
+    "nodeBlind": 0,
+    "item": "Ent-Lumière",
+    "piece": "Entrée",
+    "etage": "0,",
+    "type": "binary_light",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": 20,
+    "nodeBlind": 0,
+    "item": "Détecteur fumée",
+    "piece": "Entrée",
+    "etage": "0,",
+    "type": "smoke_sensor",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": 30,
+    "nodeBlind": 0,
+    "item": "Porte Garage",
+    "piece": "Garage",
+    "etage": "0,",
+    "type": "door_sensor",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": "Fenêtre16",
+    "nodeBlind": 31,
+    "item": "SaM-PorteSud Volet",
+    "piece": "Salle-à-Manger",
+    "etage": "0,",
+    "type": "fenetre",
+    "constructeur": "",
+    "level": "fermee-miferme"
+  },
+  {
+    "node": "Fenêtre5",
+    "nodeBlind": 13,
+    "item": "SaM-PorteEst Volet",
+    "piece": "Salle-à-Manger",
+    "etage": "0,",
+    "type": "fenetre",
+    "constructeur": "",
+    "level": "fermee-ferme"
+  },
+  {
+    "node": "Fenêtre0",
+    "nodeBlind": 4,
+    "item": "Sal-Porte Volet",
+    "piece": "Salon",
+    "etage": "0,",
+    "type": "fenetre",
+    "constructeur": "",
+    "level": "fermee-ferme"
+  },
+  {
+    "node": "Fenêtre4",
+    "nodeBlind": 8,
+    "item": "Sal-Fenêtre Volet",
+    "piece": "Salon",
+    "etage": "0,",
+    "type": "fenetre",
+    "constructeur": "",
+    "level": "fermee-ferme"
+  },
+  {
+    "node": 44,
+    "nodeBlind": 0,
+    "item": "Sdb-E1-Porte",
+    "piece": "SdB-Étg-1",
+    "etage": "1,",
+    "type": "binary_light",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": 46,
+    "nodeBlind": 0,
+    "item": "SdB-E1-Lavabo",
+    "piece": "SdB-Étg-1",
+    "etage": "1,",
+    "type": "binary_light",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": 19,
+    "nodeBlind": 0,
+    "item": "WC-E1-Lumière",
+    "piece": "WC-Étg-1",
+    "etage": "1,",
+    "type": "dimmable_light",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": 29,
+    "nodeBlind": 0,
+    "item": "WC-E1-Luminosité",
+    "piece": "WC-Étg-1",
+    "etage": "1,",
+    "type": "light_sensor",
+    "constructeur": "",
+    "level": "16"
+  },
+  {
+    "node": 27,
+    "nodeBlind": 0,
+    "item": "WC-E1-Détection",
+    "piece": "WC-Étg-1",
+    "etage": "1,",
+    "type": "motion_sensor",
+    "constructeur": "",
+    "level": "0"
+  },
+  {
+    "node": 28,
+    "nodeBlind": 0,
+    "item": "WC-E1-Température",
+    "piece": "WC-Étg-1",
+    "etage": "1,",
+    "type": "temperature_sensor",
+    "constructeur": "",
+    "level": "23.90"
+  }
+]

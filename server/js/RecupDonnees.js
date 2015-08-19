@@ -30,9 +30,9 @@ function listeModules(callback){
       if (xhr.readyState == 4 && xhr.status == 200){
         var pageData = xhr.responseText.replace(/ui.sldLevelValue.value/g,'levelValue');
         var jsonDataDevices = JSON.parse(pageData);
-        var devicesLength = jsonDataDevices.length;
+ //       var devicesLength = jsonDataDevices.length;
 //        console.log("Nbr de modules = " + devicesLength);
-        stringData = JSON.stringify(jsonDataDevices, null, 2);
+ //       stringData = JSON.stringify(jsonDataDevices, null, 2);
 //        fs.writeFileSync("configHCL.json", pageData, "UTF-8");
       // Construit le fichier de configuration config.json
         var ficJSON = '{"name": "Frontonas","devices": [';
@@ -45,8 +45,8 @@ function listeModules(callback){
           if(device > 0) ficJSON += ',';
           for(var piece in piecesHCL){
             if(piecesHCL[piece].id == jsonDataDevices[device].roomID){
-              var etage = (piecesHCL[piece].sectionID-1)
-              var pieceFronto = piecesHCL[piece].name.replace(/ /g, "-");
+//              var etage = (piecesHCL[piece].sectionID-1)
+//              var pieceFronto = piecesHCL[piece].name.replace(/ /g, "-");
               var nodeBlind = 0;
               var node = jsonDataDevices[device].id;
               var item = jsonDataDevices[device].name;
@@ -266,7 +266,8 @@ function listeModules(callback){
           } // Fin !moduleOk
         moduleOk = false;
         }
-        pageData = JSON.stringify(maison, null, 2);
+        tempPageData = maison.devices.sort(sortByPieceAndPosition);
+        pageData = JSON.stringify(tempPageData, null, 2)
         fs.writeFileSync("config.json", pageData, "UTF-8");
         callback(maison);
       };
@@ -313,6 +314,33 @@ function envoieCommande(message, callback){
   xhr.open('GET',temp,true,'domoticz','domoticz');
   xhr.send(null);
   callback(valeur);
+}
+
+function sortByPieceAndPosition(a,b) {
+ 	//return 1, if you want b to come first 	
+  //return -1, if you want a to come first 	
+  //return 0, if both objects are the same 
+  if(a.piece < b.piece) 	{
+    return -1; 	
+  } 	
+  else if(a.piece > b.piece) 	{
+    return 1; 	
+  }
+  else if(a.type < b.type) 	{
+    return -1; 	
+  } 	
+  else if(a.type > b.type) 	{
+    return 1; 	
+  } 	
+ 	else if(a.position < b.position) 	{
+    return -1;
+ 	} 	
+  else if(a.position > b.position) 	{
+    return 1; 	
+  }
+ 	else 	{
+    return 0; 	
+  } 
 }
 
 exports.listeModules = listeModules;

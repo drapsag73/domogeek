@@ -11,7 +11,7 @@ var routeAccueil = express.Router();              // Récupère l'instance du ro
 // middleware to use for all requests
 routeAccueil.use(cors({
     allowedOrigins:[
-        '192.168.0.16:1680', '78.233.143.4:1680', 'localhost:1680','apiganza.fr']
+        '192.168.0.16:1680', '78.233.143.4:1680', 'localhost:1680','apiganza.fr', '192.168.1.14:1680']
 }))
 
 routeAccueil.all("*", function(req, res, next) {
